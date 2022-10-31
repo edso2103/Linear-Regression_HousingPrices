@@ -56,7 +56,8 @@ A continuación, se encuentra el código realizado en c++, el cual contiene:<br>
 *   *CMakeLists:* contiene las instrucciones que se deben ejecutar, como crear el objeto (-c)  y crear el ejecutable enlazando el objeto (-o), todo en un solo archivo, que a la vez se encargue de borrar los archivos creados a medida que se actualicen.
 *   *main.cpp:* Invoca las funciones a usar, con sus respectivos parámetros
 *   *Archivos .txt:* contienen los costos y thetas obtenidos tras implementar el modelo.
+<br><br>
 
-En cuanto al código realizado en python, se encuentra en el siguiente cuaderno:<br><br>
-**Cuaderno**
+**Cuaderno**<br>
+En cuanto al código realizado en python, se encuentra en el siguiente cuaderno:
 
