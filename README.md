@@ -39,13 +39,13 @@ Para ello se hace uso del dataset, "HousingPrices", el cual contiene hasta 80 ca
 # Desarrollo
 A continuación, se encuentra el código realizado en c++, el cual contiene:<br>
 **Carpeta DataSets**
-*   El dataset HousingPrices 
+*   El dataset HousingPrices<br> 
 **Extraccion**
 *   *Extraction.cpp:* código fuente para la extracción del dataset, cuenta con los respectivos métocos para hallar el promedio, la desviación, la normalización de los datos y la división en datos de entrenamiento y prueba.
-*   *Extraction.h:* es el header que contiene únicamente los métodos de Extraction.cpp.
+*   *Extraction.h:* es el header que contiene únicamente los métodos de Extraction.cpp.<br>
 **Regresion**
 *   *Regresion.cpp:* código fuente para hallar la función de costo, el gradiente descendente y el coeficiente de determinación.
-*   *Regresion.h:* es el header que contiene únicamente los métodos de Regresion.cpp.
+*   *Regresion.h:* es el header que contiene únicamente los métodos de Regresion.cpp.<br>
 **Otros**
 *   *CMakeLists:* contiene las instrucciones que se deben ejecutar, como crear el objeto (-c)  y crear el ejecutable enlazando el objeto (-o), todo en un solo archivo, que a la vez se encargue de borrar los archivos creados a medida que se actualicen.
 *   *main.cpp:* Invoca las funciones a usar, con sus respectivos parámetros
