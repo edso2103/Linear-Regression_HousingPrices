@@ -20,11 +20,11 @@ Modelar las predicciones basadas en la Regresión Lineal
 
 # Objetivos Específicos:
 
-1 -  Seleccionar un dataset 
-2 -  Hacer una análitica de datos sobre el dataset seleccionado
-3 -  Modelar usando la regresión lineal usando Scikit-Learn
-4 -  Modelar usando la regresión lineal usando C++
-5 -  Comparar los modelos
+1 -  Seleccionar un dataset<br>
+2 -  Hacer una análitica de datos sobre el dataset seleccionado<br>
+3 -  Modelar usando la regresión lineal usando Scikit-Learn<br>
+4 -  Modelar usando la regresión lineal usando C++<br>
+5 -  Comparar los modelos<br>
 
 # Introducción
 
