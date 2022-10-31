@@ -7,7 +7,7 @@
 <br>
 <i><b>Estudiante:</b></i> Edna Sofía Orjuela Puentes
 <br>
-<i><b>Tema:</b></i> Linear-Regression_HousingPrices
+<i><b>Tema:</b></i> LinearRegression_HousingPrices
 <br>
 <i><b>Fecha:</b></i>26/10/22
 <br>
