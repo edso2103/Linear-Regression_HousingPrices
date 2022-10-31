@@ -43,7 +43,7 @@ A continuación, se encuentra el código realizado en c++, el cual contiene:<br>
 <br><br>
 
 **Extraccion**
-*   *Extraction.cpp:* código fuente para la extracción del dataset, cuenta con los respectivos métocos para hallar el promedio, la desviación, la normalización de los datos y la división en datos de entrenamiento y prueba.
+*   *Extraction.cpp:* código fuente para la extracción del dataset, cuenta con los respectivos métodos para hallar el promedio, la desviación, la normalización de los datos y la división en datos de entrenamiento y prueba.
 *   *Extraction.h:* es el header que contiene únicamente los métodos de Extraction.cpp.
 <br><br>
 
@@ -57,5 +57,6 @@ A continuación, se encuentra el código realizado en c++, el cual contiene:<br>
 *   *main.cpp:* Invoca las funciones a usar, con sus respectivos parámetros
 *   *Archivos .txt:* contienen los costos y thetas obtenidos tras implementar el modelo.
 
-En cuanto al código realizado en python, se encuentra en el siguiente cuaderno:<br>
+En cuanto al código realizado en python, se encuentra en el siguiente cuaderno:<br><br>
+**Cuaderno**
 
