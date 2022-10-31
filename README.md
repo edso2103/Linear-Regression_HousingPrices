@@ -13,7 +13,7 @@
 <br>
 </p>
 
-#Objetivo General: 
+# Objetivo General: 
 
 Modelar las predicciones basadas en la Regresión Lineal
 
