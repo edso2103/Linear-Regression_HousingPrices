@@ -13,12 +13,12 @@
 <br>
 </p>
 
-# Objetivo General: 
+# Objetivo General
 
 Modelar las predicciones basadas en la Regresión Lineal
 
 
-# Objetivos Específicos:
+# Objetivos Específicos
 
 1 -  Seleccionar un dataset<br>
 2 -  Hacer una análitica de datos sobre el dataset seleccionado<br>
