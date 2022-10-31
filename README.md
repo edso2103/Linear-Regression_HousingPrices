@@ -61,3 +61,36 @@ A continuación, se encuentra el código realizado en c++, el cual contiene:<br>
 **Cuaderno**<br>
 En cuanto al código realizado en python, se encuentra en el siguiente cuaderno:
 
+
+# Conclusiones:
+*  Se importan las bibliotecas requeridas, Pandas, Scikit Learn, Seaborn, etc.
+*  El dataset cuenta con 3 características independientes y una dependiente, que corresponden al precio estimado de una casa.
+*  Se dividen los datos, el 80% superior en entrenamiento, y el 20% inferior en prueba, para que el modelo aprenda con los datos de entrenamiento y luego pueda corroborar el ajuste del modelo, con los datos de prueba.
+*  Se presentan visualizaciones de los valores atípicos, distriución de los datos, matriz de correlación, función de costo, modelo implementado, comparaciones de coeficiente de determinación para cada característica y una gráfica de dispersión de los valores reales vs los estimados.
+*   Se visualiza que los datos no poseen valores nulos y se encuentran con el mismo tipo de dato, int.
+*  Se detecta una gran cantidad de valores atípicos que perjudican el modelo, debido a que si se eliminan los datos con el fin de mantener una igualdad en los datos, el modelo pierde robustez, pero si se llenan con valores generados estos no reflejan los datos verdaderos presentando problemas en el modelo. 
+
+* La matriz de dispersión permite observar que `Gr Liv Area, Overall Qual y TotalBsmtSF` presentan una correlación notable con la variable `SalePrice`, sin embargo, la variable con mayor correlación es "Overall Qual".
+
+* Se observa en la gráfica de residuos, que los datos se encuentrar alrededor del eje x, es decir, logran ajustarse al modelo lineal, aunque se puede alcanzar mayor precisión con un modelo no lineal.
+
+* Según la gráfica de cuantiles, los datos están sesgados un poco a la derecha.
+
+* De las métricas usadas para medir la calidad del modelo, se obtiene que la mejor es el R2, con 0.77 para datos de entrenamiento y 0.61 para datos de prueba, lo cual es aceptable.
+
+* Se recomienda realizar un estudio más detallado de los datos que tienen mayor correlación con el objetivo de generar un modelo más robusto.
+
+* Se recomienda aumentar la cantidad y calidad de los datos evitando los datos atípicos.
+
+* Finalmente, se evidencia que los valores obtenidos en python son muy similares a los calculados con Eigen.
+
+# Referencias
+
+* Heras, J. M. (2020, 20 septiembre). Gradiente Descendiente para aprendizaje automático. IArtificial.net. Recuperado 16 de octubre de 2022, de https://www.iartificial.net/gradiente-descendiente-para-aprendizaje-automatico/ Loukas, S. (2020, 30 mayo).<br>
+* PCA clearly explained —When, Why, How to use it and feature importance: A guide in Python. Towards Data Science. https://towardsdatascience.com/pca-clearly-explained-how-when-why-to-use-it-and-feature-importance-a-guide-in-python-7c274582c37e<br> 
+* Scikit Learn - 
+Stochastic Gradient Descent. (s. f.). Recuperado 16 de octubre de 2022, de https://www.tutorialspoint.com/scikit_learn/scikit_learn_stochastic_gradient_descent.htm<br> 
+* scikit-learn - sklearn.linear_model.LinearRegression - Regresión lineal de mínimos cuadrados ordinarios. LinearRegression se ajusta a u - Español. (s. f.). Recuperado 16 de octubre de 2022, de https://runebook.dev/es/docs/scikit_learn/modules/generated/sklearn.linear_model.linearregression<br>
+*  sklearn.linear_model.SGDRegressor. (s. f.). scikit-learn. Recuperado 16 de octubre de 2022, de https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html
+
+
