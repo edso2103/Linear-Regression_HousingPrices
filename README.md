@@ -60,7 +60,7 @@ A continuación, se encuentra el código realizado en c++, el cual contiene:<br>
 
 **Cuaderno**<br>
 En cuanto al código realizado en python, se encuentra en el siguiente cuaderno:
-
+https://colab.research.google.com/drive/1P1_q0L7fkEUcu9vk-sDrfwqnVVb4Vtgx?usp=sharing
 
 # Conclusiones:
 *  Se importan las bibliotecas requeridas, Pandas, Scikit Learn, Seaborn, etc.
