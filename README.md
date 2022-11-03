@@ -28,7 +28,7 @@ Modelar las predicciones basadas en la Regresión Lineal
 
 # Introducción
 
-El presente trabajo tiene como objetivo, realizar el análisis explorartorio de los datos, generar el modelo de gradiente descendente y evaluar el modelo implementado, tanto para lenguaje de c++ como para lenguaje de python, con el fin de comparar los resultados obtenidos en un lenguaje de alto y bajo nivel.<br>
+El presente trabajo tiene como objetivo, realizar el análisis exploratorio de los datos, generar el modelo de gradiente descendente y evaluar el modelo implementado, tanto para lenguaje de c++ como para lenguaje de python, con el fin de comparar los resultados obtenidos en un lenguaje de alto y bajo nivel.<br>
 Para ello se hace uso del dataset, "HousingPrices", el cual contiene hasta 80 características que influyen con respecto al precio de una casa, sin embargo, de este dataset se usan únicamente 4 características que corresponden a:<br>
 *   $OverallQual:$ Material general y calidad de acabado.
 *   $TotalBsmtSF:$ Pies cuadrados totales del área.
